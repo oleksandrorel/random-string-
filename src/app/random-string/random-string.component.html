@@ -1,0 +1,10 @@
+<h2
+  *ngIf="isNull === false"
+  [ngClass]="{ 'generatedString': true, 'generatedString_red': reversed, 'generatedString_blue': isNumbers }"
+>
+  {{ str }}
+</h2>
+
+<p *ngIf="isNull" class="generatedString_message">
+  Generated string is considered to be hidden, because it contains '0' value.
+</p>

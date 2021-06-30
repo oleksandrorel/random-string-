@@ -1,0 +1,20 @@
+
+.generatedString {
+  margin: 100px 0;
+  text-align: center;
+  color: #989898;
+
+  &_red {
+    color: #D80000;
+  }
+
+  &_blue {
+    color: #3385ff;
+  }
+
+  &_message {
+    text-align: center;
+    margin-top: 200px;
+    color: #D80000;
+  }
+}
